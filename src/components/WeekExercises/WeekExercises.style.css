@@ -1,0 +1,46 @@
+.workouts {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  gap: 20px;
+  height: 100vh;
+}
+
+.workouts__workout {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+  height: 100%;
+}
+
+.workouts__workout__day-name {
+  text-transform: uppercase;
+  color: var(--gray-0);
+  font-size: var(--font-xs);
+  font-weight: 600;
+}
+
+.workouts__workout__content {
+  background-color: var(--bg-day);
+  border-radius: var(--round-md);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 100%;
+}
+
+.workouts__workout__content__date {
+  color: var(--gray-1);
+  font-size: var(--font-xs);
+  font-weight: 600;
+}
+
+.workouts__workout__content__date--today {
+  color: var(--purple-0);
+}
+
+.workouts__workout__content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

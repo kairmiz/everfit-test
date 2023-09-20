@@ -1,0 +1,15 @@
+:root {
+  /* Colors */
+  --gray-0: #6a7988;
+  --gray-1: #728096;
+  --purple-0: #5a57cb;
+
+  /* Font Size */
+  --font-xs: 10px;
+
+  /* Border radius */
+  --round-md: 8px;
+
+  /* App */
+  --bg-day: #f3f5f8;
+}
